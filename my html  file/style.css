@@ -1,0 +1,30 @@
+h1{
+    color: #959595 ;
+}
+
+*{
+    border: solid ;
+    background-color: violet;
+}
+.header{
+  background-color: yellow ;
+  display: flex;
+  justify-content: space-between
+
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between ;
+    font-size: larger;
+    color: red ;
+}
+.footer{
+    display:flex;
+    justify-content: left ;
+}
