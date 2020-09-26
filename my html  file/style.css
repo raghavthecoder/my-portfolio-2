@@ -1,30 +1,80 @@
 h1{
-    color: #959595 ;
+    color:orange ;
+    padding: 10px ;
 }
 
 *{
     border: solid ;
-    background-color: violet;
+    background-color:rgb(0, 241, 221);
 }
 .header{
-  background-color: yellow ;
+  background-color: red ;
   display: flex;
-  justify-content: space-between
-
+  outline-color: teal;
+  outline-style: ridge;
+  outline-offset: 0px;
+  justify-content: space-between;
+  border: solid;
+}
+.menu{
+    color: grey;
+    background-color: grey;
+    outline-style: inherit;
+    margin: 10px;
+}
+.bottom{
+    
+    background-color: yellow;
+    color: purple;
 }
 .grid{
+
+
     display:flex;
     flex-wrap: wrap ;
     justify-content: space-evenly;
+    outline-color: tan;
+    outline-style: groove
+   
+
 }
 .item{
+   
     display: flex;
     justify-content: space-between;
     align-items: space-between ;
     font-size: larger;
-    color: red ;
+    color:black ;
+    outline-width: medium;
+    outline-style: dotted;
+    outline-color: springgreen;
+    
+    position: relative;
+} 
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%-50%);
+    opacity:0;
+}
+.item:hover  p{
+    opacity: 1; 
 }
 .footer{
     display:flex;
     justify-content: left ;
+    outline-width: initial;
+    outline-style: thick;
+    outline-color: navy;
+}
+a:visited{
+    color: white;
+}
+a:link{
+    color: deeppink;
+
+}
+.menu a{
+  margin-left: 20px ;
 }
